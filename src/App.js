@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+// import libaries
+import React from 'react';
+import Header from './Header.jsx';
+import Footer from './Footer.jsx';
+// create component
+const app = () => {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <h1>Hello React</h1>
+    <p> My Name is Sapta</p>
+    <Header  />
+    <Header  />
+    <Header  />
+    <Footer  />
+    <Footer  />
+    <Footer  />
     </div>
   );
 }
 
-export default App;
+// export component
+export default app;
